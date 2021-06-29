@@ -1,0 +1,108 @@
+.indexBody{
+	margin: 40px 0;
+}
+
+
+.indexContent{
+	width: 60%;
+	margin: 0 auto;
+	text-align: center;
+	border-left: solid 5px tomato;
+	border-right: solid 5px tomato;
+	/*box-shadow: 3px 0 5px black;*/
+	padding: 20px 0;
+}
+
+.indexTitle{
+	font-family: 'Coda Caption', sans-serif;
+	color: #606266;
+}
+
+.aboutWebsite{
+	margin: 20px 80px;
+	font-family: 'Mukta', sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+	color: #4b4d51;
+
+
+}
+
+
+.contactForm{
+	width: 60%;
+	margin: 90px auto;
+	border: solid 2px tomato;
+	border-radius: 10px;
+	padding: 30px 0px;
+}
+
+
+.contactName, .contactMail{
+	margin: 30px auto; 
+	width: 50%;
+	font-family: 'Varela Round', sans-serif;
+}
+
+.contactMsg{
+	margin: 30px auto;
+	width: 50%;
+}
+
+#name, #mail{
+	margin-left: 20px;
+}
+
+#contactName, #contactMail{
+	width: 70%;
+	padding: 3px 5px;
+}
+
+#msg{
+	width: 90%;
+	height: 100px;
+	padding: 15px;
+	resize: unset;
+}
+
+#contactName:focus, #contactMail:focus{
+	border: solid 2px tomato;
+	border-radius: 5px;
+	outline: none;
+
+}
+
+#msg:focus{
+	outline: 2px solid tomato;
+	border-color: white;
+}
+
+.contactUs{
+	text-align: left;
+	padding-left: 30px;
+	font-family: 'Coda Caption', sans-serif;
+	color: #606266;
+
+}
+
+#contactBtn{
+	display: inline-block;
+	align-content: left;
+	background: tomato;
+	color: white;
+	font-size: 15px;
+	padding: 5px 10px;
+	border-radius: 8px;
+	border: 3px solid tomato;
+}
+
+
+#contactBtn:hover{
+	box-shadow: 0 5px 4px grey;
+}
+
+.contactBtn{
+	display: flex;
+	justify-content: flex-end;
+	padding-right: 25%;
+}

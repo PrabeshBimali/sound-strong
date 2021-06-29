@@ -1,0 +1,119 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+
+.header{
+	padding: 50px 0;
+	border-bottom: solid 10px tomato;
+	box-shadow: 0 5px 0.9em grey;
+	
+}
+
+
+.title{
+	color: grey;
+	text-align: center;
+	font-family: 'Coda Caption', sans-serif;
+}
+
+#sound{
+	color: white;
+	background-color: tomato;
+	border: solid;
+	padding: 3px;
+	border-radius: 8px;
+}
+
+.navbar{
+	margin-top: 30px;
+}
+
+ul{
+	display: flex;
+	/*-left: solid 3px grey;
+	border-right: solid 3px grey;*/
+	/**border-radius: 20px;**/
+	border: solid 3px grey;
+	width: 50%;
+	margin: 0 auto;
+	padding: 20px 0;
+	justify-content: space-around;
+}
+
+
+.navLinks{
+	text-decoration: none;
+	border-bottom: solid 2px white;
+	color: grey;
+}
+
+.navLinks:hover{
+	border-bottom: solid 2px tomato;
+	color: tomato;
+}
+
+.forForm{
+	display: inline-block;
+}
+
+li{
+	font-family: 'Varela Round', sans-serif;
+	font-size: 18px;
+	display: inline-block;
+	list-style: none;
+}
+
+.formLinks{
+	text-decoration: none;
+	border: solid tomato;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+#Login{
+	color: tomato;
+}
+
+#SignUp{
+	background-color: tomato;
+	color: white;
+}
+
+#Login:hover{
+	background-color: tomato;
+	color: white;
+}
+
+#SignUp:hover{
+	box-shadow: 0 5px 4px grey;
+}
+
+
+.footer{
+	background-color: tomato;
+	color: white;
+	padding: 20px;
+	box-shadow: 0 -5px 0.9em grey;
+}
+
+
+.footerContent{
+	width: 50%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-around;
+}
+
+
+.copyright{
+	text-align: center;
+	margin: 20px 0;
+}
+
+.content1,.content2, .content3{
+	padding: 10px;
+	width: 15%;
+}
+

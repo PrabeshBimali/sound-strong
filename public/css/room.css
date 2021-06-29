@@ -1,0 +1,39 @@
+.roomBody{
+	margin: 40px 0;
+}
+
+.roomContent{
+	width: 60%;
+	margin: 0 auto;
+	text-align: center;
+	border-left: solid 5px tomato;
+	border-right: solid 5px tomato;
+	/*box-shadow: 3px 0 5px black;*/
+	padding: 20px 0;
+	padding: 0 20px;
+	
+}
+
+a{text-decoration: none;}
+
+.room1, .room2, .room3{
+	width: 50%;
+	border: solid 3px tomato;
+	text-decoration: none;
+	padding: 5px;
+	margin: 20px auto;
+}
+
+.room1:hover, .room2:hover, .room3:hover{
+	box-shadow: 0 5px 4px grey;
+}
+
+#room1, #room2, #room3{
+	width: 100%;
+}
+
+.roomTitle, .roomDesc{
+	color: black;
+	margin: 10px 0;
+}
+

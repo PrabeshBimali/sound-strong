@@ -1,0 +1,65 @@
+.loginForm{
+	width: 40%;
+	margin: 90px auto;
+	border: solid 2px tomato;
+	border-radius: 10px;
+	padding: 30px 0px;
+}
+
+.loginName, .loginPassword{
+	margin: 30px auto; 
+	width: 50%;
+	font-family: 'Varela Round', sans-serif;
+}
+
+
+#loginName, #loginPassword{
+	margin-left: 20px;
+	padding: 5px 10px;
+}
+
+.loginUs{
+	text-align: left;
+	padding-left: 30px;
+	font-family: 'Coda Caption', sans-serif;
+	color: #606266;
+
+}
+
+#loginName:focus, #loginPassword:focus{
+	border: solid 2px tomato;
+	border-radius: 5px;
+	outline: none;
+
+}
+
+#loginBtn{
+	display: inline-block;
+	align-content: left;
+	background: tomato;
+	color: white;
+	font-size: 15px;
+	padding: 5px 10px;
+	border-radius: 8px;
+	border: 3px solid tomato;
+}
+
+.loginBtn{
+	display: flex;
+	justify-content: flex-end;
+	padding-right: 25%;
+}
+
+
+#loginBtn:hover{
+	box-shadow: 0 5px 4px grey;
+}
+
+.signupLink{
+	text-align: center;
+	margin-top: 10px;
+}
+
+.signupLinkP{
+	display: inline-block;
+}

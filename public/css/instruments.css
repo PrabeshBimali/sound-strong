@@ -1,0 +1,39 @@
+.instrumentBody{
+	margin: 40px 0;
+}
+
+.instrumentContent{
+	width: 60%;
+	margin: 0 auto;
+	text-align: center;
+	border-left: solid 5px tomato;
+	border-right: solid 5px tomato;
+	/*box-shadow: 3px 0 5px black;*/
+	padding: 20px 0;
+	padding: 0 20px;
+	
+}
+
+a{text-decoration: none;}
+
+.instrument1, .instrument2, .instrument3{
+	width: 50%;
+	border: solid 3px tomato;
+	text-decoration: none;
+	padding: 5px;
+	margin: 20px auto;
+}
+
+.instrument1:hover, .instrument2:hover, .instrument3:hover{
+	box-shadow: 0 5px 4px grey;
+}
+
+#instrument1, #instrument2, #instrument3{
+	width: 100%;
+}
+
+.instrumentTitle, .instrumentDesc{
+	color: black;
+	margin: 10px 0;
+}
+

@@ -1,0 +1,62 @@
+.signupForm{
+	width: 40%;
+	margin: 90px auto;
+	border: solid 2px tomato;
+	border-radius: 10px;
+	padding: 30px 0px;
+}
+
+.signupName, .signupPassword, .signupFullName, .signupEmail{
+	margin: 30px auto; 
+	width: 50%;
+	font-family: 'Varela Round', sans-serif;
+}
+
+
+#signupName, #signupPassword, #signupFullName, #signupEmail{
+	margin-left: 20px;
+	padding: 5px 10px;
+	width: 200px;
+}
+
+.signupUs{
+	text-align: left;
+	padding-left: 30px;
+	font-family: 'Coda Caption', sans-serif;
+	color: #606266;
+
+}
+
+#signupName:focus, #signupPassword:focus, #signupFullName:focus, #signupEmail:focus{
+	border: solid 2px tomato;
+	border-radius: 5px;
+	outline: none;
+
+}
+
+#signupBtn{
+	display: inline-block;
+	align-content: left;
+	background: tomato;
+	color: white;
+	font-size: 15px;
+	padding: 5px 10px;
+	border-radius: 8px;
+	border: 3px solid tomato;
+}
+
+.signupBtn{
+	display: flex;
+	justify-content: flex-end;
+	padding-right: 25%;
+}
+
+
+#signupBtn:hover{
+	box-shadow: 0 5px 4px grey;
+}
+
+.signupLabel{
+	display: inline-block;
+	width: 100px;
+}
